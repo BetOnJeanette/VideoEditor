@@ -1,0 +1,13 @@
+[package]
+name = "video-editor"
+version = "0.1.0"
+edition = "2024"
+license = "GPL-3.0-only"
+
+[dependencies]
+cxx = "1.0.95"
+cxx-qt = "0.10"
+cxx-qt-lib = { version = "0.10", features = ["qt_full"] }
+
+build-dependencies
+cxx-qt-build = { version = "0.10", features = ["link_qt_object_files"] }
